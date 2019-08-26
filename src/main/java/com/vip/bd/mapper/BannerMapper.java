@@ -8,6 +8,6 @@ import java.util.List;
 /**
  * @author zhangwei
  */
-public interface BannerMapper {
+public interface BannerMapper{
      List<Banner>  findAll(@Param("ord") String ord);
 }
